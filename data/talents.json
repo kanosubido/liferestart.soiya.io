@@ -1,0 +1,1155 @@
+{
+    "1001": {
+        "id": "1001",
+        "name": "翡翠ペンダントを持っています",
+        "description": "祝福の効果があるかもしれません",
+        "grade": 0
+    },
+    "1002": {
+        "id": "1002",
+        "name": "赤ちゃん用のチューブトップ",
+        "description": "子供の頃死亡する確率が減ります",
+        "grade": 0
+    },
+    "1003": {
+        "id": "1003",
+        "name": "必ず男",
+        "description": "性別が必ず男になります",
+        "grade": 1,
+        "exclusive": [
+            "1004",
+            "1025",
+            "1024",
+            1113
+        ]
+    },
+    "1004": {
+        "id": "1004",
+        "name": "必ず女",
+        "description": "性別が必ず女になります",
+        "grade": 1,
+        "exclusive": [
+            "1003",
+            "1024",
+            "1025"
+        ]
+    },
+    "1005": {
+        "id": "1005",
+        "name": "アニメオタク",
+        "description": "オタクになる確率が6倍になります",
+        "grade": 2
+    },
+    "1006": {
+        "id": "1006",
+        "name": "楽天的",
+        "description": "楽しさ+1",
+        "grade": 0,
+        "effect": {
+            "SPR": 1
+        }
+    },
+    "1007": {
+        "id": "1007",
+        "name": "才能豊か",
+        "description": "最初に利用可能な属性ポイント+2",
+        "grade": 1,
+        "status": 2
+    },
+    "1008": {
+        "id": "1008",
+        "name": "生まれつき鬱症",
+        "description": "楽しさ-3",
+        "grade": 0,
+        "effect": {
+            "SPR": -3
+        }
+    },
+    "1009": {
+        "id": "1009",
+        "name": "ネット巨魔",
+        "description": "楽しさ+2",
+        "grade": 1,
+        "effect": {
+            "SPR": 2
+        }
+    },
+    "1010": {
+        "id": "1010",
+        "name": "天竜人",
+        "description": "北京戸籍を持っています",
+        "grade": 2,
+        "exclusive": [
+            "1012",
+            "1013",
+            "1014"
+        ]
+    },
+    "1011": {
+        "id": "1011",
+        "name": "一人っ子",
+        "description": "兄弟がいません",
+        "grade": 0
+    },
+    "1012": {
+        "id": "1012",
+        "name": "田舎風",
+        "description": "農村に生まれます",
+        "grade": 0,
+        "exclusive": [
+            "1010",
+            "1013",
+            "1014"
+        ]
+    },
+    "1013": {
+        "id": "1013",
+        "name": "ビル群",
+        "description": "都市に生まれます",
+        "grade": 0,
+        "exclusive": [
+            "1010",
+            "1012",
+            "1014"
+        ]
+    },
+    "1014": {
+        "id": "1014",
+        "name": "中国系アメリカ人",
+        "description": "アメリカ国籍を持っています",
+        "grade": 2,
+        "effect": {
+            "MNY": 3
+        },
+        "exclusive": [
+            "1010",
+            "1012",
+            "1013"
+        ]
+    },
+    "1015": {
+        "id": "1015",
+        "name": "ホームボス",
+        "description": "一番親に愛されています",
+        "grade": 1
+    },
+    "1016": {
+        "id": "1016",
+        "name": "水の加護",
+        "description": "溺れ死ねません",
+        "grade": 0
+    },
+    "1017": {
+        "id": "1017",
+        "name": "先天性免疫",
+        "description": "エイズに感染しません",
+        "grade": 0
+    },
+    "1018": {
+        "id": "1018",
+        "name": "人類の進化",
+        "description": "すべての属性+1",
+        "grade": 2,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1019": {
+        "id": "1019",
+        "name": "優れた才能",
+        "description": "最初に利用可能な属性ポイント+4",
+        "grade": 2,
+        "status": 4
+    },
+    "1020": {
+        "id": "1020",
+        "name": "イケメン美人両親",
+        "description": "ルックス+2",
+        "grade": 1,
+        "effect": {
+            "CHR": 2
+        }
+    },
+    "1021": {
+        "id": "1021",
+        "name": "美人命短し",
+        "description": "ルックス+2、体質-2",
+        "grade": 0,
+        "effect": {
+            "CHR": 2,
+            "STR": -2
+        }
+    },
+    "1022": {
+        "id": "1022",
+        "name": "蛇の加護",
+        "description": "蛇に噛まれ死にません",
+        "grade": 0
+    },
+    "1023": {
+        "id": "1023",
+        "name": "半神",
+        "description": "すべての属性+2",
+        "grade": 3,
+        "effect": {
+            "SPR": 2,
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1024": {
+        "id": "1024",
+        "name": "そうせいじん",
+        "description": "生れつきふたなり",
+        "grade": 2,
+        "exclusive": [
+            "1003",
+            "1004",
+            "1025"
+        ]
+    },
+    "1025": {
+        "id": "1025",
+        "name": "むせいじん",
+        "description": "生れつき性別がありません",
+        "grade": 2,
+        "exclusive": [
+            "1003",
+            "1024",
+            "1004",
+            1113
+        ]
+    },
+    "1026": {
+        "id": "1026",
+        "name": "レインボーの下",
+        "description": "同性と付き合う可能性があります",
+        "grade": 0,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1027": {
+        "id": "1027",
+        "name": "情を切る",
+        "description": "一生結婚しません",
+        "grade": 1,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1028": {
+        "id": "1028",
+        "name": "モテモテ",
+        "description": "恋愛する確率アップ",
+        "grade": 0
+    },
+    "1029": {
+        "id": "1029",
+        "name": "安全な子供時代",
+        "description": "12歳まで親健在",
+        "grade": 1
+    },
+    "1030": {
+        "id": "1030",
+        "name": "ペットマスター",
+        "description": "ペットが事故死することはありません",
+        "grade": 0
+    },
+    "1031": {
+        "id": "1031",
+        "name": "生れつき身体障害",
+        "description": "体質-2",
+        "grade": 0,
+        "effect": {
+            "STR": -2
+        }
+    },
+    "1032": {
+        "id": "1032",
+        "name": "早生まれ",
+        "description": "すべての属性-1",
+        "grade": 0,
+        "effect": {
+            "SPR": -1,
+            "MNY": -1,
+            "CHR": -1,
+            "STR": -1,
+            "INT": -1
+        }
+    },
+    "1033": {
+        "id": "1033",
+        "name": "十死無生",
+        "description": "体質-10",
+        "grade": 0,
+        "effect": {
+            "STR": -10
+        }
+    },
+    "1034": {
+        "id": "1034",
+        "name": "家運が悪い",
+        "description": "家計-2",
+        "grade": 0,
+        "effect": {
+            "MNY": -2
+        }
+    },
+    "1035": {
+        "id": "1035",
+        "name": "下向き生まれ",
+        "description": "知性-2",
+        "grade": 0,
+        "effect": {
+            "INT": -2
+        }
+    },
+    "1036": {
+        "id": "1036",
+        "name": "胎教",
+        "description": "知性+1",
+        "grade": 0,
+        "effect": {
+            "INT": 1
+        }
+    },
+    "1037": {
+        "id": "1037",
+        "name": "クラスの人気者",
+        "description": "クラスメイトと仲良くなりやすいです",
+        "grade": 0
+    },
+    "1038": {
+        "id": "1038",
+        "name": "騎士",
+        "description": "運転がすぐ習得できるようになります",
+        "grade": 0
+    },
+    "1039": {
+        "id": "1039",
+        "name": "YYDS",
+        "description": "eスポーツの天才",
+        "grade": 1
+    },
+    "1040": {
+        "id": "1040",
+        "name": "自律",
+        "description": "ギャンブルと酒には触れません",
+        "grade": 0
+    },
+    "1041": {
+        "id": "1041",
+        "name": "ディンク",
+        "description": "子供を産みません",
+        "grade": 1,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1042": {
+        "id": "1042",
+        "name": "少数民族",
+        "description": "大学入試+5点",
+        "grade": 0
+    },
+    "1043": {
+        "id": "1043",
+        "name": "ドライブマスター",
+        "description": "あなたと家族は交通事故に会いません",
+        "grade": 0
+    },
+    "1044": {
+        "id": "1044",
+        "name": "低圧",
+        "description": "あなたの家族は心臓病にかかりません",
+        "grade": 0
+    },
+    "1045": {
+        "id": "1045",
+        "name": "战功",
+        "description": "兵士引退後、公務員になれます",
+        "grade": 0
+    },
+    "1046": {
+        "id": "1046",
+        "name": "不妊",
+        "description": "子供を産めません",
+        "grade": 1,
+        "exclusive": [
+            "1113"
+        ]
+    },
+    "1047": {
+        "id": "1047",
+        "name": "一緒に年をとる",
+        "description": "相手とは70歳以上生きられます",
+        "grade": 1
+    },
+    "1048": {
+        "id": "1048",
+        "name": "秘密のボックス",
+        "description": "100歳以降開けられます",
+        "grade": 3
+    },
+    "1049": {
+        "id": "1049",
+        "name": "三十自立",
+        "description": "30歳時家計+2",
+        "condition": "AGE?[30]",
+        "grade": 0,
+        "effect": {
+            "MNY": 2
+        }
+    },
+    "1050": {
+        "id": "1050",
+        "name": "四十不惑",
+        "description": "40歳時知性+2",
+        "condition": "AGE?[40]",
+        "grade": 0,
+        "effect": {
+            "INT": 2
+        }
+    },
+    "1051": {
+        "id": "1051",
+        "name": "天命を知る",
+        "description": "50歳時知性、楽しさ+1",
+        "condition": "AGE?[50]",
+        "grade": 0,
+        "effect": {
+            "SPR": 1,
+            "INT": 1
+        }
+    },
+    "1052": {
+        "id": "1052",
+        "name": "老後楽",
+        "description": "60歳時楽しさ+2",
+        "condition": "AGE?[60]",
+        "grade": 0,
+        "effect": {
+            "SPR": 2
+        }
+    },
+    "1053": {
+        "id": "1053",
+        "name": "心の赴くまま",
+        "description": "70歳時楽しさ+3",
+        "condition": "AGE?[70]",
+        "grade": 0,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1054": {
+        "id": "1054",
+        "name": "年取るほど健康",
+        "description": "60歳時体質+2",
+        "condition": "AGE?[60]",
+        "grade": 1,
+        "effect": {
+            "STR": 2
+        }
+    },
+    "1055": {
+        "id": "1055",
+        "name": "老後美",
+        "description": "70歳時ルックス+3",
+        "condition": "AGE?[70]",
+        "grade": 0,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1056": {
+        "id": "1056",
+        "name": "就学前の啓蒙",
+        "description": "5歳時知性+2",
+        "condition": "AGE?[5]",
+        "grade": 1,
+        "effect": {
+            "INT": 2
+        }
+    },
+    "1057": {
+        "id": "1057",
+        "name": "十八変",
+        "description": "18歳時ルックス+2",
+        "condition": "AGE?[18]",
+        "grade": 1,
+        "effect": {
+            "CHR": 2
+        }
+    },
+    "1058": {
+        "id": "1058",
+        "name": "金銭遅し",
+        "description": "90歳時家計+4",
+        "condition": "AGE?[90]",
+        "grade": 0,
+        "effect": {
+            "MNY": 4
+        }
+    },
+    "1059": {
+        "id": "1059",
+        "name": "財務管理の達人",
+        "description": "30、40、50歳時家計+1",
+        "condition": "AGE?[30,40,50]",
+        "grade": 0,
+        "effect": {
+            "MNY": 1
+        }
+    },
+    "1060": {
+        "id": "1060",
+        "name": "成熟",
+        "description": "12、18歳時知性+1",
+        "condition": "AGE?[12,18]",
+        "grade": 1,
+        "effect": {
+            "INT": 1
+        }
+    },
+    "1061": {
+        "id": "1061",
+        "name": "イメージマネージメント",
+        "description": "16、24歳時ルックス+1",
+        "condition": "AGE?[16,24]",
+        "grade": 1,
+        "effect": {
+            "CHR": 1
+        }
+    },
+    "1062": {
+        "id": "1062",
+        "name": "成人式",
+        "description": "18歳時楽しさ+1",
+        "condition": "AGE?[18]",
+        "grade": 0,
+        "effect": {
+            "SPR": 1
+        }
+    },
+    "1063": {
+        "id": "1063",
+        "name": "光の子",
+        "description": "最初に利用可能な属性ポイント+1",
+        "grade": 0,
+        "status": 1
+    },
+    "1064": {
+        "id": "1064",
+        "name": "天命",
+        "description": "最初に利用可能な属性ポイント+8",
+        "grade": 3,
+        "status": 8
+    },
+    "1065": {
+        "id": "1065",
+        "name": "先祖の薬",
+        "description": "機能不明",
+        "grade": 1
+    },
+    "1066": {
+        "id": "1066",
+        "name": "対象を絞った貧困緩和",
+        "description": "家計が0の時、家計+1",
+        "condition": "(MNY<1)&(MNY>-1)",
+        "grade": 0,
+        "effect": {
+            "MNY": 1
+        }
+    },
+    "1067": {
+        "id": "1067",
+        "name": "楽天派",
+        "description": "楽しさが0の時、楽しさ+1",
+        "condition": "(SPR<1)&(SPR>-1)",
+        "grade": 1,
+        "effect": {
+            "SPR": 1
+        }
+    },
+    "1068": {
+        "id": "1068",
+        "name": "命の綱",
+        "description": "体質が0の時、体質+1",
+        "condition": "(STR<1)&(STR>-1)",
+        "grade": 0,
+        "effect": {
+            "STR": 1
+        }
+    },
+    "1069": {
+        "id": "1069",
+        "name": "知恵が金になる",
+        "description": "もし20歳時知性>8、家計+2",
+        "condition": "(AGE?[20])&(INT>8)",
+        "grade": 0,
+        "effect": {
+            "MNY": 2
+        }
+    },
+    "1070": {
+        "id": "1070",
+        "name": "追求者多い",
+        "description": "もし20歳時ルックス>8、楽しさ+2",
+        "condition": "(AGE?[20])&(CHR>8)",
+        "grade": 0,
+        "effect": {
+            "SPR": 2
+        }
+    },
+    "1071": {
+        "id": "1071",
+        "name": "保胎薬",
+        "description": "胎内で死ぬことはありません",
+        "grade": 0
+    },
+    "1072": {
+        "id": "1072",
+        "name": "銃の加護",
+        "description": "銃撃で死ぬことはありません",
+        "grade": 0
+    },
+    "1073": {
+        "id": "1073",
+        "name": "ハーバード",
+        "description": "ハーバード大学に受かる確率が上がります",
+        "grade": 0
+    },
+    "1074": {
+        "id": "1074",
+        "name": "悟り道",
+        "description": "知性>10の時、楽しさ+3",
+        "condition": "INT>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1075": {
+        "id": "1075",
+        "name": "驻顔",
+        "description": "体質>10の時、ルックス+3",
+        "condition": "STR>10",
+        "grade": 0,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1076": {
+        "id": "1076",
+        "name": "限界突破",
+        "description": "体質>10の時、楽しさ+3",
+        "condition": "STR>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1077": {
+        "id": "1077",
+        "name": "傾城",
+        "description": "ルックス>10の時、楽しさ+3",
+        "condition": "CHR>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1078": {
+        "id": "1078",
+        "name": "訓練の仕方",
+        "description": "知性>10の時、体質+3",
+        "condition": "INT>10",
+        "grade": 0,
+        "effect": {
+            "STR": 3
+        }
+    },
+    "1079": {
+        "id": "1079",
+        "name": "知恵の美",
+        "description": "知性>10の時、ルックス+3",
+        "condition": "INT>10",
+        "grade": 0,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1080": {
+        "id": "1080",
+        "name": "知恵の金",
+        "description": "知性>10の時、家計+3",
+        "condition": "INT>10",
+        "grade": 0,
+        "effect": {
+            "MNY": 3
+        }
+    },
+    "1081": {
+        "id": "1081",
+        "name": "霊光",
+        "description": "楽しさ>10の時、ほかの属性+1",
+        "condition": "SPR>10",
+        "grade": 0,
+        "effect": {
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1082": {
+        "id": "1082",
+        "name": "天啓",
+        "description": "楽しさ>10の時、ほかの属性+2",
+        "condition": "SPR>10",
+        "grade": 1,
+        "effect": {
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1083": {
+        "id": "1083",
+        "name": "神佑",
+        "description": "楽しさ>10の時ほかの属性+3",
+        "condition": "SPR>10",
+        "grade": 2,
+        "effect": {
+            "MNY": 3,
+            "CHR": 3,
+            "STR": 3,
+            "INT": 3
+        }
+    },
+    "1084": {
+        "id": "1084",
+        "name": "生贄",
+        "description": "最初に利用可能な属性ポイント-2、楽しさ+2",
+        "grade": 0,
+        "status": -2,
+        "effect": {
+            "SPR": 2
+        },
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1085": {
+        "id": "1085",
+        "name": "ラッキー",
+        "description": "最初に利用可能な属性ポイント-3、楽しさ+5",
+        "grade": 1,
+        "status": -3,
+        "effect": {
+            "SPR": 5
+        },
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1086": {
+        "id": "1086",
+        "name": "挑戦者",
+        "description": "最初に利用可能な属性ポイント-10",
+        "grade": 0,
+        "status": -10,
+        "exclusive": [
+            "1122"
+        ]
+    },
+    "1087": {
+        "id": "1087",
+        "name": "金持ちの楽しさ",
+        "description": "家計>10の時、楽しさ+3",
+        "condition": "MNY>10",
+        "grade": 1,
+        "effect": {
+            "SPR": 3
+        }
+    },
+    "1088": {
+        "id": "1088",
+        "name": "整形",
+        "description": "家計>10の時、ルックス+3",
+        "condition": "MNY>10",
+        "grade": 0,
+        "effect": {
+            "CHR": 3
+        }
+    },
+    "1089": {
+        "id": "1089",
+        "name": "フィットネスカード",
+        "description": "家計>10の時、体質+3",
+        "condition": "MNY>10",
+        "grade": 0,
+        "effect": {
+            "STR": 3
+        }
+    },
+    "1090": {
+        "id": "1090",
+        "name": "くじけない思い",
+        "description": "体質<0の時、ほかの属性+1",
+        "condition": "STR<0",
+        "grade": 0,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "CHR": 1,
+            "INT": 1
+        }
+    },
+    "1091": {
+        "id": "1091",
+        "name": "生きる屍",
+        "description": "体質<-1の時、ほかの属性+2",
+        "condition": "STR<0",
+        "grade": 1,
+        "effect": {
+            "SPR": 2,
+            "MNY": 2,
+            "CHR": 2,
+            "INT": 2
+        }
+    },
+    "1092": {
+        "id": "1092",
+        "name": "神の窓",
+        "description": "ルックス<0の時、ほかの属性+1",
+        "condition": "CHR<0",
+        "grade": 0,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1093": {
+        "id": "1093",
+        "name": "デカイおでこ",
+        "description": "ルックス-2、知性+2",
+        "grade": 0,
+        "effect": {
+            "CHR": -2,
+            "INT": 2
+        }
+    },
+    "1094": {
+        "id": "1094",
+        "name": "にきび顔",
+        "description": "ルックス-1",
+        "grade": 0,
+        "effect": {
+            "CHR": -1
+        }
+    },
+    "1095": {
+        "id": "1095",
+        "name": "ポテンシャル",
+        "description": "家計<0の時、ほかの属性+1",
+        "condition": "MNY<0",
+        "grade": 0,
+        "effect": {
+            "SPR": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1096": {
+        "id": "1096",
+        "name": "悲しみを力に変えて",
+        "description": "楽しさ<0の時、ほかの属性+1",
+        "condition": "SPR<0",
+        "grade": 0,
+        "effect": {
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1097": {
+        "id": "1097",
+        "name": "苦難の道",
+        "description": "楽しさ<-1の時、ほかの属性+2",
+        "condition": "SPR<-1",
+        "grade": 1,
+        "effect": {
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1098": {
+        "id": "1098",
+        "name": "覚醒",
+        "description": "家計<-1の時、ほかの属性+2",
+        "condition": "MNY<-1",
+        "grade": 1,
+        "effect": {
+            "SPR": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1099": {
+        "id": "1099",
+        "name": "ドM",
+        "description": "家計-2、楽しさ+2",
+        "grade": 0,
+        "effect": {
+            "SPR": 2,
+            "MNY": -2
+        }
+    },
+    "1100": {
+        "id": "1100",
+        "name": "海の娘",
+        "description": "ルックス-2、最初に利用可能な属性ポイント+1",
+        "grade": 0,
+        "status": 1,
+        "effect": {
+            "CHR": -2
+        }
+    },
+    "1101": {
+        "id": "1101",
+        "name": "レベルアップ",
+        "description": "すべての属性>5の時、すべての属性+1",
+        "condition": "(SPR>5)&(MNY>5)&(CHR>5)&(STR>5)&(INT>5)",
+        "grade": 0,
+        "effect": {
+            "SPR": 1,
+            "MNY": 1,
+            "CHR": 1,
+            "STR": 1,
+            "INT": 1
+        }
+    },
+    "1102": {
+        "id": "1102",
+        "name": "メガシンカ",
+        "description": "すべての属性>5の時、すべての属性+2",
+        "condition": "(SPR>5)&(MNY>5)&(CHR>5)&(STR>5)&(INT>5)",
+        "grade": 1,
+        "effect": {
+            "SPR": 2,
+            "MNY": 2,
+            "CHR": 2,
+            "STR": 2,
+            "INT": 2
+        }
+    },
+    "1103": {
+        "id": "1103",
+        "name": "白いカプセル",
+        "description": "10歳時何も起きません",
+        "condition": "AGE?[10]",
+        "grade": 0
+    },
+    "1104": {
+        "id": "1104",
+        "name": "紫のカプセル",
+        "description": "40~50歳をスキップします",
+        "condition": "AGE?[40,41,42,43,44,45,46,47,48,49,50]",
+        "grade": 2
+    },
+    "1105": {
+        "id": "1105",
+        "name": "青いカプセル",
+        "description": "20、30歳時何も起きません",
+        "condition": "AGE?[20,30]",
+        "grade": 1
+    },
+    "1106": {
+        "id": "1106",
+        "name": "ダイエット",
+        "description": "ファーストフードを食べません",
+        "grade": 0
+    },
+    "1107": {
+        "id": "1107",
+        "name": "受かりたくない",
+        "description": "清華大学に受かりません",
+        "grade": 0
+    },
+    "1108": {
+        "id": "1108",
+        "name": "挑発的",
+        "description": "あることないこと見つけてちょっかいをかけます",
+        "grade": 0
+    },
+    "1109": {
+        "id": "1109",
+        "name": "旅人",
+        "description": "旅行が好きです",
+        "grade": 0
+    },
+    "1110": {
+        "id": "1110",
+        "name": "ナルシシズム",
+        "description": "ナルシシズム",
+        "grade": 0
+    },
+    "1111": {
+        "id": "1111",
+        "name": "いらない",
+        "description": "効果なし",
+        "grade": 0
+    },
+    "1112": {
+        "id": "1112",
+        "name": "異界の来客",
+        "description": "機密情報を知れるかもしれません",
+        "grade": 2
+    },
+    "1113": {
+        "id": "1113",
+        "name": "三子生活",
+        "description": "できるだけ三子産みたくなります",
+        "grade": 1,
+        "exclusive": [
+            "1003",
+            "1025",
+            "1026",
+            1027,
+            1041,
+            1046
+        ]
+    },
+    "1114": {
+        "id": "1114",
+        "name": "オレンジ色のカプセル",
+        "description": "60~90歳をスキップします",
+        "condition": "AGE?[60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90]",
+        "grade": 3
+    },
+    "1115": {
+        "id": "1115",
+        "name": "ゼウス",
+        "description": "オリンピックに参加する確率があがります",
+        "grade": 0
+    },
+    "1116": {
+        "id": "1116",
+        "name": "人のために",
+        "description": "公務員に受かるとき百パーセント受かります",
+        "grade": 0
+    },
+    "1117": {
+        "id": "1117",
+        "name": "悪くない人",
+        "description": "懲役刑は減刑されます",
+        "grade": 0
+    },
+    "1118": {
+        "id": "1118",
+        "name": "小吉",
+        "description": "運が過ごしだけ上昇します",
+        "grade": 0
+    },
+    "1119": {
+        "id": "1119",
+        "name": "てんびん座",
+        "description": "公平らしいです",
+        "grade": 0
+    },
+    "1120": {
+        "id": "1120",
+        "name": "まれの素晴らしさ",
+        "description": "攻め",
+        "grade": 0
+    },
+    "1121": {
+        "id": "1121",
+        "name": "コントロールできない",
+        "description": "強迫症です",
+        "grade": 0
+    },
+    "1122": {
+        "id": "1122",
+        "name": "大急ぎ",
+        "description": "最初の属性ポイントが0になります",
+        "grade": 1,
+        "status": -20,
+        "exclusive": [
+            "1084",
+            "1085",
+            "1086"
+        ]
+    },
+    "1123": {
+        "id": "1123",
+        "name": "離れない",
+        "description": "離婚しません",
+        "grade": 0
+    },
+    "1124": {
+        "id": "1124",
+        "name": "背伸び",
+        "description": "身長は低くないです",
+        "grade": 0
+    },
+    "1125": {
+        "id": "1125",
+        "name": "太りやすい",
+        "description": "ルックス下がる確率があがります",
+        "grade": 0
+    },
+    "1126": {
+        "id": "1126",
+        "name": "レイシズム",
+        "description": "人種差別主義者",
+        "grade": 0
+    },
+    "1127": {
+        "id": "1127",
+        "name": "左利き",
+        "description": "左利き",
+        "grade": 0
+    },
+    "1128": {
+        "id": "1128",
+        "name": "クトゥルフ",
+        "description": "&▓▓▓◆▓▓▓￥#▓@■.◆",
+        "grade": 2
+    },
+    "1129": {
+        "id": "1129",
+        "name": "不連続的存在",
+        "description": "ほかの人格を持っています",
+        "grade": 2
+    },
+    "1130": {
+        "id": "1130",
+        "name": "効果なし",
+        "description": "選べるタレントを一つ減ります",
+        "grade": 0
+    },
+    "1131": {
+        "id": "1131",
+        "name": "魔法のステッキ",
+        "description": "効果あるかどうかわかりませ・・・",
+        "grade": 2
+    }
+}
